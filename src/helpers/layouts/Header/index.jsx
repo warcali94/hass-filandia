@@ -1,9 +1,12 @@
+import "./header.scss";
+// import Brand from "../Brand";
+import Menu from "../Menu";
 
-
-export default ({text}) => {
-
-    return (
-      <p>{text}</p>
-    )
-}
-
+export default ({ children }) => {
+  return (
+    <div className="header">
+      {/* <Brand /> */}
+      {/* <Menu /> */}
+    </div>
+  );
+};

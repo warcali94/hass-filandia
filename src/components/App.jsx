@@ -1,10 +1,12 @@
-import Header from "../helpers/layouts/Header"
+import Layout from "../helpers/layouts";
+// import Header from "../helpers/layouts/Header"
 
 function App() {
 
   return (
     <div className="App">
-      <Header text={'maliarodp'} />
+      {/* <Header text={'Welcome'} /> */}
+      <Layout></Layout>
     </div>
   )
 }

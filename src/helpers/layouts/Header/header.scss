@@ -1,0 +1,14 @@
+
+@import '../../../resources/css/variables.scss';
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: $primary-green;
+    box-shadow: 1px 2px 20px 2px $secondary-green;
+    justify-content: space-around;
+}
+
