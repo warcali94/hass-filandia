@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site":"hass-filandia",
+    "public": "n",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
