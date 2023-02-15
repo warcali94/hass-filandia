@@ -4,14 +4,12 @@ import "./brand.scss";
 
 export default () => {
   return (
-    <>
       <Image
         preview={false}
         rootClassName={"brand"}
-        height={100}
+        height={80}
         src={`${brandLogo}`}
         alt="logo-hass"
       />
-    </>
   );
 };

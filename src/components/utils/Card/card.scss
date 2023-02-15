@@ -1,0 +1,15 @@
+@import '../../../resources//css//variables.scss';
+
+.container-img {
+  background-color: $secondary-green;
+  margin: 10px 0;
+ min-width: 400px;
+  max-width: 400px;
+  //   background-size:contain;
+  .img {
+     max-height: 200px;
+    // height: auto;
+    position: relative;
+    object-fit:cover;
+  }
+}

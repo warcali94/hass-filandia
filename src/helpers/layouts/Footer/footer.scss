@@ -1,0 +1,67 @@
+@import '../../../../src/resources/css/variables.scss';
+.footer_container {
+  background-color: rebeccapurple;
+}
+.footer_items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: $dark-green;
+  .footer_branding {
+    width: 25%;
+    .hass_title {
+      margin: 0;
+      font-family: 'Courgette', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3.5em;
+      color: $primary-green;
+    }
+  }
+  .footer_info {
+    display: flex;
+    // flex-direction: column;
+    width: 50%;
+    // background-color: orange;
+    .info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      // background-color: blue;
+
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      // background-color: red;
+    }
+    .text {
+      color: $default;
+      // background-color: blue;
+      padding: 3px;
+    }
+  }
+  .footer_icons {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //  background-color: bisque;
+  }
+}
+
+.footer_rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 20px 0;
+  color: $dark-green;
+  background-color: $primary-green;
+}
