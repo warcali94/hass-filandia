@@ -1,0 +1,14 @@
+.cards_container {
+    //  justify-content: space-between;
+    width: 100%;
+     display: flex;
+     justify-content: center;
+    background-color: rgb(101, 89, 89);
+    // padding: 20px;
+    .row{
+        width:inherit;
+        justify-content: space-around;
+    }
+}
+
+

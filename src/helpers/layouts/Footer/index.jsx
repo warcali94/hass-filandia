@@ -5,7 +5,7 @@ import Branding from '../../components/Branding';
 import './footer.scss';
 export default () => (
   <>
-    <Content className="footer_items">
+    <Content className="footer_container">
       <Content className="footer_branding">
         <Branding content={'Hass Filandia'} klass={'hass_title'} />
       </Content>

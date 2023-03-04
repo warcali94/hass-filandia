@@ -1,0 +1,16 @@
+@mixin font-family($font-family) {
+    font-family: $font-family;
+  }
+  
+  @mixin font-size($size) {
+    font-size: $size;
+  }
+  
+  @mixin font-weight($weight) {
+    font-weight: $weight;
+  }
+  
+  @mixin font-style($style) {
+    font-style: $style;
+  }
+  

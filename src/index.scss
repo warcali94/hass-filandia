@@ -1,7 +1,10 @@
-@import './resources/css/styles.scss';
+@import './resources/css/main.scss';
+// @import 'antd/dist/antd.css';
+
 
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: $font-primary;
 }
 

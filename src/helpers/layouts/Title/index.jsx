@@ -1,8 +1,8 @@
-import { Children } from "react";
+import { items } from "react";
 
 export default ({}) => {
 
     return (
-        <>{Children}</>
+        <>{items}</>
     )
 };

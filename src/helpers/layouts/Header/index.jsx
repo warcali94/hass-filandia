@@ -2,7 +2,7 @@ import "./header.scss";
 // import Brand from "../Brand";
 import Menu from "../Menu";
 
-export default ({ children }) => {
+export default ({ items }) => {
   return (
     <div className="header">
       {/* <Brand /> */}

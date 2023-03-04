@@ -2,14 +2,14 @@
 
 .container-img {
   background-color: $secondary-green;
-  margin: 10px 0;
- min-width: 400px;
-  max-width: 400px;
+  margin: 13px;
+  min-width: 350px;
+  // max-width: 400px;
   //   background-size:contain;
   .img {
-     max-height: 200px;
+    max-height: 200px;
     // height: auto;
     position: relative;
-    object-fit:cover;
+    object-fit: cover;
   }
 }
