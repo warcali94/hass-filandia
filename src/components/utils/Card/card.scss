@@ -1,15 +1,23 @@
 @import '../../../resources//css//variables.scss';
 
 .container-img {
+  // margin: 0;
   background-color: $secondary-green;
-  margin: 13px;
-  min-width: 350px;
+  margin: 2em;
+  min-width: 50px;
+  max-width: 350px;
+  max-height: 100%;
   // max-width: 400px;
   //   background-size:contain;
+  border: none;
   .img {
-    max-height: 200px;
-    // height: auto;
-    position: relative;
+    // transform: scale(.9);
+    min-width:350px;
+    //  padding: 1%;
+    // max-width:350px;
+    // max-height: 350px;
+     height: auto;
+    // position: relative;
     object-fit: cover;
   }
 }

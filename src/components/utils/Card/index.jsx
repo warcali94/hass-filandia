@@ -1,7 +1,7 @@
 import { Image, Card } from 'antd';
 
 import './card.scss';
-export default ({ image, title, items }) => {
+export default ({ image, title, children }) => {
   return (
     // <Card
     //   className="container-img"
@@ -15,9 +15,9 @@ export default ({ image, title, items }) => {
       className="container-img"
       title={title}
       hoverable
-      size="default"
+      size="smaller"
     >
-      {items}
+      {children}
     </Card>
   );
 };

@@ -1,4 +1,4 @@
-import { Button, Row,Col, Divider,  } from 'antd';
+import { Button, Row, Col, Divider } from 'antd';
 import { Content } from 'antd/es/layout/layout';
 import { breakpoints } from '../helpers/layouts/grid';
 import styles from './menu.module.scss';
@@ -41,26 +41,22 @@ const cardsItems = [
   },
 ];
 
-export default () => {
+export default ({id}) => {
   return (
-    <Content className={styles.cards_container}>
-      <Row gutter={{ ...breakpoints } } className={styles.row}>
-         {/* <Content className={styles.cards_container}> */}
-         {cardsItems.map(({ title, image, description }, index) => (
-        <Col span={{ ...breakpoints }}>
-            <Card
-              key={index}
-              image={image}
-              title={title}
-            >
+    <Content id={id} className={styles.cards_container}>
+      <Row gutter={{...breakpoints}} className={styles.row}>
+        {/* <Content className={styles.cards_container}> */}
+        {cardsItems.map(({ title, image, description }, index) => (
+          // <Col span={{ ...breakpoints }}>
+            <Card key={index} image={image} title={title}>
               <Divider>
                 <Button type="primary">Detalles</Button>
                 <p>{description}</p>
               </Divider>
             </Card>
-          </Col>
-          ))}
-         {/* </Content> */}
+          // </Col>
+        ))}
+        {/* </Content> */}
       </Row>
     </Content>
   );

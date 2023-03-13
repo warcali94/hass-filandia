@@ -11,9 +11,9 @@ export default () => (
       </Content>
       <Content className="footer_info">
         <Content className="info">
-          <Typography.Text className="text">Visión</Typography.Text>
-          <Typography.Text className="text">Misión</Typography.Text>
-          <Typography.Text className="text">Proyectos</Typography.Text>
+          <Typography.Text className="text"><a href="">Visión</a></Typography.Text>
+          <Typography.Text className="text"><a href="">Misión</a></Typography.Text>
+          <Typography.Text className="text"><a href="">Proyectos</a></Typography.Text>
         </Content>
         <Content className="contact">
           <Typography.Text className="text">
@@ -24,17 +24,17 @@ export default () => (
                 url={`https://www.gmail.com`}
               />
             </Tooltip>
-            Proyectos
+            <span className='span_social'>Gmail</span>
           </Typography.Text>
           <Typography.Text className="text">
-            <Tooltip title="Facebook">
+            <Tooltip title="Whatsapp">
               <SocialIcon
                 bgColor="transparent"
                 fgColor="white"
                 url={`https://www.whatsapp.com`}
               />
             </Tooltip>
-            Whatsapp
+            <span className='span_social'>Whatsapp</span>
           </Typography.Text>
           <Typography.Text className="text">
             <Tooltip title="Facebook">
@@ -44,17 +44,18 @@ export default () => (
                 url={`https://www.facebook.com`}
               />
             </Tooltip>
-            Ubicación
+            <span className='span_social'>Ubicación</span>
           </Typography.Text>
         </Content>
       </Content>
       <Content className="footer_icons">
         <Typography.Title level={5} style={{ color: 'white' }}>
-          Siguenos
+         <span className='span_social'> Siguenos</span>
         </Typography.Title>
         <div>
           <Tooltip title="Facebook">
             <SocialIcon
+              className='social-icon'
               bgColor="transparent"
               fgColor="white"
               url={`https://www.facebook.com`}
@@ -77,10 +78,8 @@ export default () => (
         </div>
       </Content>
     </Content>
-    {/* <div className="footer_rights"> */}
     <Typography.Text className="footer_rights">
       &copy;Todos los derechos reservados
     </Typography.Text>
-    {/* </div> */}
   </>
 );

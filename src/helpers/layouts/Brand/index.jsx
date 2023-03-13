@@ -2,15 +2,17 @@ import brandLogo from "/brand.svg";
 import { Image } from "antd";
  import "./brand.scss";
 
-export default () => {
+export default ({klass}) => {
   return (
-      <Image
+      <div className={klass}>
+        <Image
         preview={false}
-        rootClassName={"brand"}
+        rootClassName={"brand" }
         // height={80}
         width={160}
         src={`${brandLogo}`}
         alt="logo-hass"
       />
+      </div>
   );
 };

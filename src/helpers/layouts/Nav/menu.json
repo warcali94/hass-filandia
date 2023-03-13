@@ -1,6 +1,6 @@
 [
-  { "name": "inicio" },
-  { "name": "galeria" },
-  { "name": "nosotros" },
-  { "name": "contactenos" }
+  {"key":"inicio", "label": "inicio" },
+  {"key":"galeria", "label": "galeria" },
+  {"key":"nosotros", "label": "nosotros" },
+  {"key":"contactenos", "label": "contactenos" }
 ]

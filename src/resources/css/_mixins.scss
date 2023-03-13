@@ -1,0 +1,13 @@
+@mixin shadow-text($color:$light-green){
+    text-shadow: 2px 0px 10px  $color;
+}
+@mixin shadow-box($color:$light-green){
+    box-shadow: 2px 0px 10px  $color;
+}
+
+@mixin links(){
+color: red;
+& :focus{
+background-color: red;
+}
+}
